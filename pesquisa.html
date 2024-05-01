@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel='stylesheet'
+        href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i'>
+    <link rel="stylesheet" type="text/css" href="css/fonts-icones.css">
+    <link rel="shortcut icon"
+        href="https://static.wixstatic.com/media/bbe396_7e9235d95ed1449da92e1f6ee1174698%7Emv2.webp/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/bbe396_7e9235d95ed1449da92e1f6ee1174698%7Emv2.webp"
+        type="image/png" />
+
+    <title>PROJETO INTEGRADO - B&G</title>
+
+</head>
+
+<body>
+
+    <header class="main_header container">
+        <div class="content">
+
+            <div class="main_header_logo">
+                <a target="_blank"><img src="img/rickandmorty.png" alt="logo.png" title="Rick and Morty" /></a>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="main_content container">
+
+
+        <div class="box-formulario">
+
+            <div class="formulario">
+
+                <div class="title-form">
+                    <h1>Projeto Integrado</h1>
+                </div>
+
+                <span>
+                    <input type="text" class="input-balao-up" id="personagem" name="personagem"
+                        placeholder="Digite o nome do personagem" autocomplete="off" required="" />
+
+                    <label for="assunto">
+                        <i class="icon icon-info"></i>
+                        <!-- <img src="img/rick_morty_icon.jpg" style="width: 57%;border-radius: 40px;margin-left: -160px;margin-top: -8px;"> -->
+                    </label>
+                    <img src="img/loading.gif" alt="loading.gif" id="loading" title="Carregando" class="loading"
+                        style=" width: 7%;display: none;  " />
+
+                    <div class="box-btn" id="divBtnBuscar">
+                        <button type="submit" class="btn-envia zoom-shadow">
+                            <i class="icon icon-search" id="btn_buscar"> Buscar </i>
+                        </button>
+                    </div>
+                </span>
+
+
+                <table id="tabelaDesenhos">
+                    <tbody>
+                    </tbody>
+                </table>
+
+            </div>
+
+        </div>
+
+
+    </main>
+
+    <footer class="main_footer container">
+        <div class="main_footer_copy">
+
+            <p class="m-b-footer"><b> Desenvolvido por: Saguadinn Produções e GLS Entertaiment 😜🚀</b></p>
+
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
