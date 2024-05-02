@@ -5,7 +5,7 @@
     
     Objetivo:  Mostrar cards dos personagens de Rick e Morty
     
-    Versão: 1.0000.1
+    Versão: 1.0000.1.0.0.1
 
     Última Modificação: 28/04/2024
 
